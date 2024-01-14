@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.itemheader {
+  display: flex;
+  margin-top: 5px;
+  color: white;
+}
+
+option {
+  background-color: blue;
+}
+
+select {
+  background-color: blue;
+  border: none;
+  color: white;
+}
+
+.border {
+  border: 1px solid gray;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+.text1 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.text2 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.text3 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.text4 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.text5 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.hover:hover {
+  color: greenyellow;
+  transition: 1s;
+}
+
+.twiter {
+  gap: 5px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.twiter:hover {
+  color: greenyellow;
+  transition: 1s;
+}
+
+.header1 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgrey;
+}
+
+.text6 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: -50px;
+}
+
+.itemheader2 {
+  margin-top: 40px;
+}
+
+.itemheader2:hover {
+  color: greenyellow;
+  transition: 1s;
+}
+
+#btn-grad {
+  background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%);
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  color: black;
+  display: block;
+}
+
+#btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.itemheader3 {
+  margin-top: 15px;
+}
+
+.border1 {
+  border: 1px solid gray;
+  border-radius: 40px;
+  padding: 5px;
+  margin-top: -10px;
+}
+
+.border1:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: 1s;
+}
+
+.background1 {
+  width: 100%;
+  height: 500px;
+  background-image: url(./1613463330_54-p-fon-dlya-prezentatsii-pro-apteki-64.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.text7 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(10, 10, 64);
+  padding-top: 150px;
+}
+
+.text8 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.left1 {
+  width: 700px;
+  border: 2px soolid black;
+}
+
+.image {
+  width: 300px;
+}
+
+.table1 {
+  width: 700px;
+  height: 1200px;
+}
+
+.one {
+  display: flex;
+  margin-top: 30px;
+}
+
+.itemone {
+  margin-left: 30px;
+}
+
+.onegray {
+  color: gray;
+}
+
+.onegreen {
+  color: green;
+}
+
+.text9 {
+  font-size: 25px;
+  color: rgb(10, 10, 91);
+  margin-left: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.text10 {
+  color: gray;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.text11 {
+  color: gray;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.text12 {
+  width: 650px;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.TEXT12 {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.borderraduis {
+  border-radius: 30px;
+}
+
+.text13 {
+  color: rgb(3, 3, 53);
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.text14 {
+  color: gray;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.greenchek {
+  color: greenyellow;
+}
+
+.alltextchek {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.checktext {
+  margin-left: 20px;
+}
+
+.text18 {
+  color: gray;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.itemmedical {
+  margin-left: -30px;
+}
+
+.itemrenovaton {
+  margin-left: -30px;
+}
+
+.iteminsta {
+  padding-left: -40px;
+}
+
+#green {
+  padding: 10px;
+  margin-top: -10px;
+  border-radius: 50px;
+  color: gray;
+  border: none;
+}
+
+#green:hover {
+  background-color: greenyellow;
+  transition: 1s;
+  color: white;
+}
+
+#instagreen {
+  margin-top: -15px;
+  margin-left: -80px;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+}
+
+#instagreen:hover {
+  background-color: greenyellow;
+  color: white;
+  transition: 1s;
+}
+
+.rightitem1 {
+  width: 355px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.rightitem2 {
+  width: 355px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  height: 550px;
+  margin-top: 20px;
+}
+
+.container1 {
+  display: flex;
+}
+
+.input1 {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#input1 {
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.searchinput1 {
+  margin-left: -36px;
+}
+
+#searchgreen {
+  border-radius: 20px;
+  border: none;
+  background-color: greenyellow;
+  padding: 7px;
+  color: white;
+}
+
+#searchgreen:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.itencategories {
+  margin-left: 25px;
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.itencategories:hover {
+  color: blue;
+  background-color: lightcyan;
+  transition: 1s;
+  margin-left: 20px;
+}
+
+.cardi {
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.cardi1 {
+  margin-left: 160px;
+  padding-top: 10px;
+}
+
+.text19 {
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#photo4 {
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.rightitem3 {
+  display: flex;
+}
+
+.text20 {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.text21 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.container4 {
+  width: 355px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  height: 420px;
+  margin-top: 20px;
+}
+
+.container5 {
+  width: 355px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+#skincare {
+  padding: 10px;
+  border-radius: 40px;
+  background-color: white;
+  color: gray;
+  border: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#skincare:hover {
+  background-color: greenyellow;
+  color: white;
+  transition: 1s;
+}
+
+.text22 {
+  font-size: 30px;
+  color: darkblue;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.table2 {
+  margin-left: -300px;
+}
+
+.container6 {
+  width: 650px;
+  height: 300px;
+  background-color: white;
+  margin-left: 170px;
+}
+
+.contdispl6 {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+#photo5 {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.text23 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.item6one {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.item6 {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.text25 {
+  color: gray;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.text26 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.text27 {
+  margin-left: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.text24 {
+  margin-left: 20px;
+}
+
+.foter {
+  background-color: darkcyan;
+  width: 100%;
+  margin-top: 400px;
+  height: 300px;
+  padding-top: 30px;
+}
+
+.fotertop {
+  display: flex;
+  width: 1400px;
+  justify-content: space-around;
+  border-bottom: 2px solid gray;
+}
+
+.itemdisplay {
+  display: flex;
+}
+
+#btn-grad1 {
+  background-image: linear-gradient(to right, #52c234 0%, #061700 51%, #52c234 100%);
+  margin: 10px;
+  border: none;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+}
+
+#btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#foteminput {
+  height: 40px;
+  border-radius: 50px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+.itemtoptext {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
